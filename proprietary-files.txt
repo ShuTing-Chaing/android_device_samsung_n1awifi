@@ -8,6 +8,9 @@ lib/liboemcrypto.so:vendor/lib/liboemcrypto.so
 bin/gpsd:vendor/bin/gpsd
 lib/hw/gps.default.so:vendor/lib/hw/gps.universal5420.so
 
+# IR Blaster
+lib/hw/consumerir.default.so:vendor/lib/hw/consumerir.universal5420.so
+
 # NXP Noise Cancelling
 vendor/etc/nxp/LVVEFS_Rx_Configuration.txt
 vendor/etc/nxp/LVVEFS_Tx_Configuration.txt

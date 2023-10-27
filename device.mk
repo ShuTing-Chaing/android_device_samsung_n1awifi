@@ -20,7 +20,7 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
 # Updater URI
 PRODUCT_PROPERTY_OVERRIDES += \
-    lineage.updater.uri=https://shuting.idv.tw/LineageOS/api/v1/{device}/{type}/{incr}
+    lineage.updater.uri=https://raw.githubusercontent.com/ShuTing-Chaing/LineageOS-OTA/master/18.1/{device}.json
 
 # GPS
 PRODUCT_COPY_FILES += \
